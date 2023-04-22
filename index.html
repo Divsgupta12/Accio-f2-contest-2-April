@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="profession-select">
+      <option value="">--Select--</option>
+      <option value="developer">Developer</option>
+      <option value="admin">Admin</option>
+    </select><br><br>
+    <div id="employee-cards"></div>
+    <button id="filter-btn">Filter</button>
+  <div>
+    <div id="add-user">Add a new user:</div>
+        <table id="add-user-table">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><label for="profession">Profession:</label></td>
+                <td><label for="age">Age:</label></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="name"></td>
+                <td><input type="text" id="profession"></td>
+                <td><input type="number" id="age"></td>
+            </tr>
+        </table>
+  </div>
+  <button id="add-user-btn">Add User</button>
+  
+  
+</body>
+<script src="script.js"></script>
+</html>
